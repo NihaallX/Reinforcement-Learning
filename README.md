@@ -25,9 +25,21 @@ python cartpole_dqn.py test
 - Runs and visualizes the agent
 - Records a video in the `videos/` folder
 
+
 ## Example Results
 - ![Reward Curve](reward_curve.png)
-- Sample video: See `videos/` after testing
+
+### Before and After Training (Video Comparison)
+
+| Before Training                | After Training                 |
+|-------------------------------|-------------------------------|
+| ![Before Training](videos/before_training.gif) | ![After Training](videos/after_training.gif) |
+
+> **Note:** Replace the `.gif` files above with your actual before/after video or GIF file names. If you have `.mp4` files, you can convert them to GIFs for GitHub preview, or simply provide download links:
+
+**Download videos:**
+- [Before Training (mp4)](videos/before_training.mp4)
+- [After Training (mp4)](videos/after_training.mp4)
 
 ## Requirements
 - Python 3.8+
